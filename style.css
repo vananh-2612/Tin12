@@ -1,13 +1,3 @@
-.tieude {
-  color : tomato;
-  font-weight: bold;
-  font-size : 18pt;
-}
-.noidung {
-  color : black;
-  font-style: normal;
-  font-size : 14pt;
-}
 
 .contener{
          display: flex;
