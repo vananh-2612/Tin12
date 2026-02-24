@@ -1,5 +1,30 @@
 
-.contener{
+.container{
          display: flex;
-        flex-direction
+         flex-direction: column;
+         height: 100vh;
+}
+.header{
+         flex: 15%;
+         background -color: lightgray;
+}
+.menu{
+         flex: 5%;
+         background -color: darkgray;
+}
+. content {
+         flex: 70%;
+         background -color: white;
+}
+. content iframe{
+         flex: 1;
+         border: none;
+         width: 100%;
+         height: 100%;
+}     
+.footer{
+         flex: 10%;
+         background -color: lightgray;
+}
+    
   
