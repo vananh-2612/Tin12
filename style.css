@@ -6,17 +6,17 @@
 }
 .header{
          flex: 15%;
-         background-color: antiquewhite;
+         background-color: darkred;
 }
 .menu{
          flex: 5%;
-         background-color: darkred;
+         background-color: antiquewhite;
          color: white;
          display: flex;
 }
 .menu a{
          padding: 15px 20px;    
-         color: black
+         color: darkred
 }
 .menu hover{
          background-color: lightgray;
@@ -34,7 +34,7 @@
 }     
 .footer{
          flex: 10%;
-         background-color: lightgray;
+         background-color: darkred;
 }
     
   
