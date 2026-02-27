@@ -6,11 +6,11 @@
 }
 .header{
          flex: 15%;
-         background-color: lightgray;
+         background-color: antiquewhite;
 }
 .menu{
          flex: 5%;
-         background-color: darkgray;
+         background-color: darkred;
          color: white;
          display: flex;
 }
