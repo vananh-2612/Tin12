@@ -21,11 +21,11 @@
          background -color: lightgray;
          color: black;
 }
-. content {
+.content {
          flex: 70%;
          background -color: white;
 }
-. content iframe{
+.content iframe{
          flex: 1;
          border: none;
          width: 100%;
