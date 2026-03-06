@@ -21,8 +21,8 @@
          color: darkred
 }
 .menu a:hover{
-         background-color: lightgray;
-         color: black;
+         background-color: darksalmon;
+         color: darkred;
 }
 .content{
          flex: 70%;
