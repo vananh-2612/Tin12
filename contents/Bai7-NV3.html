@@ -3,15 +3,19 @@
     <meta charset="utf-8">
   </head>
   <body>
-    <p id ="kq"> </p>
+    <p id="kq"> </p>
     <script>
       let params = new URLSearchParams(window.location.search);
       let ten = params.get("txtTen");
       let email = params.get("txtEmail");
       let yk = params.get("txtComment");
-      document.getElementById("kq").innerHTML = "Cảm ơn bạn" + ten + "email: "+ email + "đã góp ý <br><br> Chúng tôi xin ghi nhận ý kiến của bạn như sau:<br>" +yk;
+      document.getElementById("kq").innerHTML =
+        "Cảm ơn bạn " + ten + 
+        "<br>Email: " + email +
+        "<br><br>Chúng tôi xin ghi nhận ý kiến của bạn như sau:<br>" + yk;
     </script>
-  <br><input type="button" name="cmd" value="Quay lại" onclick="window.location.href='Bai7-NV2.html'">
+    <br>
+    <input type="button" value="Quay lại" onclick="window.location.href='Bai7-NV2.html'">
   </body>
 </html>
 
